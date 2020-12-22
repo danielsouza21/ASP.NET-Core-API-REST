@@ -6,25 +6,22 @@ Desacoplamento de funções com segurança baseada em tokens via JWT.
 
 Curso Alura "APIs Rest com ASP.NET Core 2.1"
 
----
 
-## RUN
+### RUN
 
 Iniciar serviços (Ctrl + F5 no Visual Studio) AuthProvider (porta 5000) e WebAPI (porta 6000);
 Iniciar aplicação Web MVC via IIS Explorer;
 
----
 
-## Trabalhando com a aplicação
+### Trabalhando com a aplicação
 
 Requisição de token JWT via POST no endpoint 'http://localhost:5000/api/login' com body JSON contendo "login" e "password";
 Requisição GET no serviço 'http://localhost:6000' com "Authorization" do tipo 'Bearer Token" contendo o toker em questão;
 
 Exemplo de endpoint do API seria o JSON Data de um livro com Id especifico, como 'http://localhost:6000/api/Livros/1';
 
----
 
-## Endpoints
+### Endpoints
 
 Livros:
 - Get /api/Livros
