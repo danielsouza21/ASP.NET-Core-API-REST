@@ -1,12 +1,15 @@
 Migração de uma aplicação App Web MVC (com persistencia via SQL Server, apresentação, segurança e regras de negocio) para uma
 Web API do estilo arquitetural REST, sendo dividida em microserviços.
 
-Trabalho com requests CRUD (HTTP + URI) e responses em JSON, XML ou formatos negociados + Status Code;
+- Trabalho com requests CRUD (HTTP + URI) e responses em JSON, XML ou formatos negociados + Status Code;
 
-Desacoplamento de funções com segurança baseada em tokens via JWT.
+- Desacoplamento de funções com segurança baseada em tokens via JWT.
 
-Curso Alura "APIs Rest com ASP.NET Core 2.1"
+---
 
+> Curso Alura "APIs Rest com ASP.NET Core 2.1"
+
+---
 
 ### RUN
 
