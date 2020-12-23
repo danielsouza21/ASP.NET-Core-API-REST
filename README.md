@@ -1,9 +1,11 @@
 Migração de uma aplicação App Web MVC (com persistencia via SQL Server, apresentação, segurança e regras de negocio) para uma
-Web API do estilo arquitetural REST, sendo dividida em microserviços.
+Web API do estilo arquitetural REST, sendo dividida em microserviços e seguindo o padrão 'clean'.
 
-- Trabalho com requests CRUD (HTTP + URI) e responses em JSON, XML ou formatos negociados + Status Code;
+- Desacoplamento do App Web MVC (agora este responsável apenas pela apresentação / views), sendo transferido a responsabilidade de persistência e regras de negócio para o endpoint do servidor de web API, e alocando a segurança para o projeto de AuthenticationProvider (servidor secundário para geração dos tokens de acesso); 
 
-- Desacoplamento de funções com segurança baseada em tokens via JWT.
+- Trabalho com requests CRUD (HTTP + URI) e responses em JSON, XML ou formatos negociados + Status Code, consumindo assim a API via IHttpClientFactory;
+
+- Funções de segurança baseada em tokens JWT e cookies.
 
 ---
 
@@ -17,17 +19,9 @@ Iniciar serviços (Ctrl + F5 no Visual Studio) AuthProvider (porta 5000) e WebAP
 
 Iniciar aplicação Web MVC via IIS Explorer;
 
+### Endpoints da API
 
-### Trabalhando com a aplicação
-
-Requisição de token JWT via POST no endpoint 'http://localhost:5000/api/login' com body JSON contendo "login" e "password";
-
-Requisição GET no serviço 'http://localhost:6000' com "Authorization" do tipo 'Bearer Token" contendo o toker em questão;
-
-Exemplo de endpoint do API seria o JSON Data de um livro com Id especifico, como 'http://localhost:6000/api/Livros/1';
-
-
-### Endpoints
+> Necessário token de acesso, requisitado via requisição POST na URI [http://localhost:5000/api/login] com body JSON contendo 'login' e 'password';
 
 Livros:
 - Get /api/Livros
