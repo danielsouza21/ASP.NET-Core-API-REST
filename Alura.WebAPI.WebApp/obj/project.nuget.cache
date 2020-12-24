@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3Qg3WoAXAe9e2S/TGWyyb01nJsQ85hWBZ1rU9glMDiOTfAoawYqqsBuHAiVvb4a0CygMhtI8SJFnC2UrdHnsvg==",
+  "dgSpecHash": "7s/wyFrRVI48Ptlz+6MM7oGTCS22aEriU0vj8fQQ/i60mgnz15FScr8CBYfGtlebxin41lYYagzlIbJ2Q/Rt+A==",
   "success": true,
   "projectFilePath": "C:\\Users\\danie\\Documents\\GitHub\\Projetos\\Web\\Alura.WebAPI\\Alura.WebAPI.WebApp\\Alura.WebAPI.WebApp.csproj",
   "expectedPackageFiles": [
@@ -157,11 +157,11 @@
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.extensions.primitives\\2.1.0\\microsoft.extensions.primitives.2.1.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.extensions.webencoders\\2.1.0\\microsoft.extensions.webencoders.2.1.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\5.2.4\\microsoft.identitymodel.jsonwebtokens.5.2.4.nupkg.sha512",
-    "C:\\Users\\danie\\.nuget\\packages\\microsoft.identitymodel.logging\\5.2.4\\microsoft.identitymodel.logging.5.2.4.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.identitymodel.logging\\5.3.0\\microsoft.identitymodel.logging.5.3.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.identitymodel.protocols\\5.2.0\\microsoft.identitymodel.protocols.5.2.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\5.2.0\\microsoft.identitymodel.protocols.openidconnect.5.2.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.identitymodel.protocols.wsfederation\\5.2.0\\microsoft.identitymodel.protocols.wsfederation.5.2.0.nupkg.sha512",
-    "C:\\Users\\danie\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.2.4\\microsoft.identitymodel.tokens.5.2.4.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.3.0\\microsoft.identitymodel.tokens.5.3.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.identitymodel.tokens.saml\\5.2.0\\microsoft.identitymodel.tokens.saml.5.2.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.identitymodel.xml\\5.2.0\\microsoft.identitymodel.xml.5.2.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.net.http.headers\\2.1.0\\microsoft.net.http.headers.2.1.0.nupkg.sha512",

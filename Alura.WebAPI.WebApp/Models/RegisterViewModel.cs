@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Alura.ListaLeitura.WebApp.Models
+namespace Alura.ListaLecture.WebApp.Models
 {
     public class RegisterViewModel
     {
